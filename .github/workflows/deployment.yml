@@ -2,11 +2,11 @@ name: Deploy static website
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 env:
   AWS_REGION: ap-south-1
-  S3_BUCKET: "stdentsconnect-idsk229"
+  S3_BUCKET: "tejas-idsk229"
 
 permissions:
   contents: read
